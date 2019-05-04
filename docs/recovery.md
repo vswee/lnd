@@ -168,7 +168,7 @@ a few minutes to a few hours.
 
 If the rescan wasn't able to complete fully (`lnd` was shutdown for example),
 then from `lncli unlock`, it's possible to _restart_ the rescan from where it
-left off with the `--recovery-window` argument:
+left off with the `--recovery_window` argument:
 ```
 ⛰  lncli unlock --recovery_window=2500
 ```
